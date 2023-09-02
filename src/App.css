@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+}
+/* HEADER */
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 45px;
+}
+header img {
+  height: 80px;
+}
+
+header button {
+  background-color: #ed1616;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+/* CHARACTER */
+input {
+  width: 500px;
+  padding: 12px 20px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.character-container {
+  margin: 0 auto;
+  max-width: 1440px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.character {
+  min-height: 400px;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.character img {
+  width: 150px;
+  height: 180px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border: #ed1616 solid 2px;
+}
+
+.character h2 {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 0;
+  color: black;
+}
+
+.character p {
+  margin: 10px 0;
+  width: 400px;
+  color: black;
+}
+
+/* COMICS CHARACTER */
+
+.container-comics-character {
+  margin: 0 auto;
+  max-width: 1440px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.container-comics-character img {
+  width: 150px;
+  height: 180px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border: #ed1616 solid 2px;
+}
+
+.comics-character {
+  min-height: 400px;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.comics-character p {
+  width: 100px;
+}
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 400;
+}
